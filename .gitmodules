@@ -1,0 +1,12 @@
+[submodule "tinkar"]
+	path = tinkar
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/tinkar-core-graphlet.git
+[submodule "komet"]
+	path = komet
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-graphlet.git
+[submodule "ike-mojo"]
+	path = ike-mojo
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-mojo.git
+[submodule "rocks-kb"]
+	path = rocks-kb
+	url = https://github.com/knowledge-graphlet/rocks-kb.git
