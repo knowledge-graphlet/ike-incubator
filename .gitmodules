@@ -1,9 +1,3 @@
-[submodule "tinkar"]
-	path = tinkar
-	url = https://knowledge-graphlet@github.com/knowledge-graphlet/tinkar-core-graphlet.git
-[submodule "komet"]
-	path = komet
-	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-graphlet.git
 [submodule "ike-mojo"]
 	path = ike-mojo
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-mojo.git
@@ -16,3 +10,9 @@
 [submodule "ike-bom"]
 	path = ike-bom
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-bom.git
+[submodule "komet-desktop"]
+	path = komet-desktop
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-desktop.git
+[submodule "rocks-jpms"]
+	path = rocks-jpms
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/rocks-jpms.git

@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rocks-kb" />
+        <module name="ike-mojo" />
+        <module name="rocks-jpms" />
+      </profile>
+      <profile name="Annotation profile for collection" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="collection" />
+      </profile>
+      <profile name="Annotation profile for common" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="common" />
+      </profile>
+      <profile name="Annotation profile for component" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="component" />
+      </profile>
+      <profile name="Annotation profile for entity" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="entity" />
+      </profile>
+      <profile name="Annotation profile for events" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="events" />
+      </profile>
+      <profile name="Annotation profile for integration" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="integration" />
+      </profile>
+      <profile name="Annotation profile for binding-extension" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="binding-extension" />
+      </profile>
+      <profile name="Annotation profile for owl-extension" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="owl-extension" />
+      </profile>
+      <profile name="Annotation profile for changeset-writer-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="changeset-writer-provider" />
+      </profile>
+      <profile name="Annotation profile for data-ephemeral-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="data-ephemeral-provider" />
+      </profile>
+      <profile name="Annotation profile for data-mvstore-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="data-mvstore-provider" />
+      </profile>
+      <profile name="Annotation profile for data-spinedarray-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="data-spinedarray-provider" />
+      </profile>
+      <profile name="Annotation profile for data-websocket-client-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="data-websocket-client-provider" />
+      </profile>
+      <profile name="Annotation profile for data-websocket-server-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="data-websocket-server-provider" />
+      </profile>
+      <profile name="Annotation profile for entity-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="entity-provider" />
+      </profile>
+      <profile name="Annotation profile for executor-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="executor-provider" />
+      </profile>
+      <profile name="Annotation profile for search-provider" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="search-provider" />
+      </profile>
+      <profile name="Annotation profile for reasoner-elk-owl" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="reasoner-elk-owl" />
+      </profile>
+      <profile name="Annotation profile for reasoner-elk-snomed" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="reasoner-elk-snomed" />
+      </profile>
+      <profile name="Annotation profile for reasoner-elk-snomed-test" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="reasoner-elk-snomed-test" />
+      </profile>
+      <profile name="Annotation profile for reasoner-hybrid" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="reasoner-hybrid" />
+      </profile>
+      <profile name="Annotation profile for reasoner-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="reasoner-service" />
+      </profile>
+      <profile name="Annotation profile for terms" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processor name="com.google.auto.service.processor.AutoServiceProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/auto/auto-common/1.2/auto-common-1.2.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="terms" />
+      </profile>
+      <profile name="Annotation profile for IKE Incubator" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="io.soabase.recordbuilder.processor.RecordBuilderProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-core/34/record-builder-core-34.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/squareup/javapoet/1.12.1/javapoet-1.12.1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/io/soabase/record-builder/record-builder-processor/34/record-builder-processor-34.jar" />
+        </processorPath>
+        <module name="preferences" />
+        <module name="komet-terms" />
+        <module name="navigator" />
+        <module name="rules" />
+        <module name="kview" />
+        <module name="classification" />
+        <module name="list" />
+        <module name="sync" />
+        <module name="artifact" />
+        <module name="search" />
+        <module name="framework" />
+        <module name="application" />
+        <module name="executor" />
+        <module name="builder" />
+        <module name="knowledge-layout" />
+        <module name="progress" />
+        <module name="details" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="-parameters" />
+      <module name="artifact" options="-parameters" />
+      <module name="builder" options="-parameters" />
+      <module name="classification" options="-parameters" />
+      <module name="details" options="-parameters" />
+      <module name="executor" options="-parameters" />
+      <module name="framework" options="-parameters" />
+      <module name="ike-mojo" options="--enable-preview" />
+      <module name="knowledge-layout" options="-parameters" />
+      <module name="komet-parent" options="-parameters" />
+      <module name="komet-terms" options="-parameters" />
+      <module name="kview" options="-parameters" />
+      <module name="list" options="-parameters" />
+      <module name="navigator" options="--add-exports javafx.controls/com.sun.javafx.scene.control.behavior=dev.ikm.komet.navigator" />
+      <module name="preferences" options="-parameters" />
+      <module name="progress" options="-parameters" />
+      <module name="rocks-kb" options="--enable-preview" />
+      <module name="rules" options="-parameters" />
+      <module name="search" options="-parameters" />
+      <module name="sync" options="-parameters" />
+    </option>
+  </component>
+</project>
