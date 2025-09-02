@@ -15,14 +15,23 @@
         <subproject>ike-bom</subproject>
         <subproject>ike-mojo</subproject>
         <subproject>ike-pom</subproject>
-        <subproject>komet</subproject>
         <subproject>komet-desktop</subproject>
         <subproject>rocks-jpms</subproject>
         <subproject>rocks-kb</subproject>
-        <subproject>tinkar</subproject>
     </subprojects>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <build>
+        <extensions>
+            <!-- Ensure OS/arch detection is active for the whole reactor -->
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.7.1</version>
+            </extension>
+        </extensions>
+    </build>
 </project>

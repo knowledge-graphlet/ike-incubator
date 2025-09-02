@@ -5,14 +5,8 @@
     <mapping directory="$PROJECT_DIR$/ike-bom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ike-mojo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ike-pom" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/komet" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/komet-desktop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rocks-jpms" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rocks-kb" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tile-distribution" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tile-jpms" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tile-plugins" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tile-qa" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/tinkar" vcs="Git" />
   </component>
 </project>
