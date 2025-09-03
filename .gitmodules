@@ -1,6 +1,3 @@
-[submodule "ike-mojo"]
-	path = ike-mojo
-	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-mojo.git
 [submodule "rocks-kb"]
 	path = rocks-kb
 	url = https://github.com/knowledge-graphlet/rocks-kb.git
@@ -18,4 +15,4 @@
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/rocks-jpms.git
 [submodule "ike-maven-plugin"]
 	path = ike-maven-plugin
-	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-mojo.git
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-maven-plugin.git
