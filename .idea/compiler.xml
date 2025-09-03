@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rocks-kb" />
-        <module name="ike-mojo" />
         <module name="rocks-jpms" />
+        <module name="ike-maven-plugin" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -69,7 +69,7 @@
       <module name="details" options="-parameters" />
       <module name="executor" options="-parameters" />
       <module name="framework" options="-parameters" />
-      <module name="ike-mojo" options="--enable-preview" />
+      <module name="ike-maven-plugin" options="--enable-preview" />
       <module name="knowledge-layout" options="-parameters" />
       <module name="komet-parent" options="-parameters" />
       <module name="komet-terms" options="-parameters" />

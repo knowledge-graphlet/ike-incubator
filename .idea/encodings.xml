@@ -4,9 +4,9 @@
     <file url="file://$PROJECT_DIR$/ike-bom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-bom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-bom/src/main/resources-filtered" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ike-mojo/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ike-mojo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ike-mojo/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-maven-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-maven-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ike-maven-plugin/src/main/resources-filtered" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-pom/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-pom/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ike-pom/src/main/resources-filtered" charset="UTF-8" />

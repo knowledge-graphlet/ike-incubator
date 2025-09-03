@@ -3,7 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ike-bom" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ike-mojo" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ike-pom" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/komet-desktop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/rocks-jpms" vcs="Git" />
