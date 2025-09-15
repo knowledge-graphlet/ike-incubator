@@ -16,3 +16,6 @@
 [submodule "ike-maven-plugin"]
 	path = ike-maven-plugin
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-maven-plugin.git
+[submodule "komet-graphlet"]
+	path = komet-graphlet
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-graphlet.git
