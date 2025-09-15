@@ -49,6 +49,15 @@
     <file url="file://$PROJECT_DIR$/komet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/sync/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/sync/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/jna-jpms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/jna-jpms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/jna-jpms/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/jna-platform-jpms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/jna-platform-jpms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/jna-platform-jpms/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/rocksdbjni-jpms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/rocksdbjni-jpms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocks-jpms/rocksdbjni-jpms/src/main/resources-filtered" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocks-jpms/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocks-jpms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rocks-jpms/src/main/resources-filtered" charset="UTF-8" />
