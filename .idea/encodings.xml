@@ -13,6 +13,42 @@
     <file url="file://$PROJECT_DIR$/komet-desktop/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-desktop/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet-desktop/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/application/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/artifact/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/artifact/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/builder/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/builder/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/classification/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/classification/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/details/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/details/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/executor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/executor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/framework/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/framework/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/knowledge-layout/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/knowledge-layout/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/komet-terms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/komet-terms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/kview/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/kview/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/list/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/list/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/navigator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/navigator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/preferences/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/preferences/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/progress/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/progress/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/rules/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/rules/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/sync/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/komet-graphlet/sync/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/application/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/komet/artifact/src/main/java" charset="UTF-8" />
@@ -67,6 +103,62 @@
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources-filtered" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/aggregator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/aggregator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/collection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/collection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/component/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/component/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/events/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/events/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/integration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/integration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/language-extensions/binding-extension/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/language-extensions/binding-extension/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/language-extensions/owl-extension/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/language-extensions/owl-extension/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/language-extensions/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/language-extensions/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/changeset-writer-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/changeset-writer-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-ephemeral-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-ephemeral-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-mvstore-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-mvstore-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-spinedarray-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-spinedarray-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-websocket-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-websocket-client-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-websocket-server-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/data-websocket-server-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/entity-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/entity-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/executor-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/executor-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/search-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/search-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-elk-owl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-elk-owl/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-elk-snomed-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-elk-snomed-test/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-elk-snomed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-elk-snomed/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-hybrid/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-hybrid/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/reasoner-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/reasoner/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/terms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tinkar-graphlet/terms/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar/aggregator/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar/aggregator/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tinkar/collection/src/main/java" charset="UTF-8" />

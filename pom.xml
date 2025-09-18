@@ -8,7 +8,7 @@
     <artifactId>ike-incubator</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>IKE Incubator</name>
+    <name>IKE Incubator ${project.version}</name>
     <description>Aggregator for IKE incubator projects</description>
 
     <subprojects>
@@ -16,8 +16,10 @@
         <subproject>ike-maven-plugin</subproject>
         <subproject>ike-pom</subproject>
         <subproject>komet-desktop</subproject>
+        <subproject>komet-graphlet</subproject>
         <subproject>rocks-jpms</subproject>
         <subproject>rocks-kb</subproject>
+        <subproject>tinkar-graphlet</subproject>
     </subprojects>
 
     <properties>

@@ -19,3 +19,6 @@
 [submodule "komet-graphlet"]
 	path = komet-graphlet
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-graphlet.git
+[submodule "tinkar-graphlet"]
+	path = tinkar-graphlet
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/tinkar-core-graphlet.git
