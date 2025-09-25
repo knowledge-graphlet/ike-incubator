@@ -8,7 +8,7 @@
     <artifactId>ike-incubator</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>IKE Incubator ${project.version}</name>
+    <name>IKE Incubator</name>
     <description>Aggregator for IKE incubator projects</description>
 
     <subprojects>
