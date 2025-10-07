@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.1.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:schemaLocation="http://maven.apache.org/POM/4.1.0 https://maven.apache.org/xsd/maven-4.1.0.xsd">
     <modelVersion>4.1.0</modelVersion>
 
     <groupId>dev.ikm.ike</groupId>
     <artifactId>ike-incubator</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
+
     <name>IKE Incubator</name>
     <description>Aggregator for IKE incubator projects</description>
 
     <subprojects>
+        <subproject>apfloat-jpms</subproject>
+        <subproject>build-parent-graphlet</subproject>
         <subproject>ike-bom</subproject>
         <subproject>ike-maven-plugin</subproject>
         <subproject>ike-pom</subproject>
+        <subproject>jpms-jheaps-graphlet</subproject>
         <subproject>komet-desktop</subproject>
         <subproject>komet-graphlet</subproject>
         <subproject>rocks-jpms</subproject>
         <subproject>rocks-kb</subproject>
         <subproject>tinkar-graphlet</subproject>
     </subprojects>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
