@@ -11,7 +11,6 @@
     <description>Aggregator for IKE incubator projects</description>
 
     <subprojects>
-        <subproject>apfloat-jpms</subproject>
         <subproject>build-parent-graphlet</subproject>
         <subproject>ike-bom</subproject>
         <subproject>ike-maven-plugin</subproject>

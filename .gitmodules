@@ -28,6 +28,3 @@
 [submodule "jpms-jheaps-graphlet"]
 	path = jpms-jheaps-graphlet
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/jpms-jheaps-graphlet.git
-[submodule "apfloat-jpms"]
-	path = apfloat-jpms
-	url = https://knowledge-graphlet@github.com/knowledge-graphlet/apfloat-jpms.git
