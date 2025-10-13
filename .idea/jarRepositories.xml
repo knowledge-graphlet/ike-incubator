@@ -12,6 +12,11 @@
       <option name="url" value="https://jitpack.io" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="ike-restricted" />
+      <option name="name" value="ike-restricted" />
+      <option name="url" value="https://nexus.tinkar.org/repository/ike-restricted/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="Nexus" />
       <option name="name" value="Nexus" />
       <option name="url" value="https://nexus.tinkar.org/repository/" />
@@ -55,6 +60,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ike-public" />
+      <option name="name" value="ike-public" />
+      <option name="url" value="https://nexus.tinkar.org/repository/ike-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="Nexus" />
