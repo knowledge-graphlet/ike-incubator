@@ -1,6 +1,6 @@
 [submodule "rocks-kb"]
 	path = rocks-kb
-	url = https://github.com/knowledge-graphlet/rocks-kb.git
+	url = https://knowledge-graphlet@github.com/knowledge-graphlet/rocks-kb.git
 [submodule "ike-pom"]
 	path = ike-pom
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-pom.git
