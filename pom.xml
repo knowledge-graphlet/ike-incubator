@@ -20,7 +20,6 @@
         <subproject>ike-bom</subproject>
         <subproject>ike-pom</subproject>
         <subproject>jpms-jheaps-graphlet</subproject>
-        <subproject>komet-desktop</subproject>
         <subproject>komet-graphlet</subproject>
         <subproject>rocks-jpms</subproject>
         <subproject>rocks-kb</subproject>
