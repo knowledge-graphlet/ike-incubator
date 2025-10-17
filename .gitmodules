@@ -7,9 +7,6 @@
 [submodule "ike-bom"]
 	path = ike-bom
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/ike-bom.git
-[submodule "komet-desktop"]
-	path = komet-desktop
-	url = https://knowledge-graphlet@github.com/knowledge-graphlet/komet-desktop.git
 [submodule "rocks-jpms"]
 	path = rocks-jpms
 	url = https://knowledge-graphlet@github.com/knowledge-graphlet/rocks-jpms.git
