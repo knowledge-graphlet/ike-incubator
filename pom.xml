@@ -5,7 +5,7 @@
     <parent>
         <groupId>dev.ikm.build</groupId>
         <artifactId>parent</artifactId>
-        <version>1.67.0</version>
+        <version>1.69.0</version>
     </parent>
     <groupId>dev.ikm.ike</groupId>
     <artifactId>ike-incubator</artifactId>
@@ -15,17 +15,17 @@
     <name>IKE Incubator</name>
     <description>Aggregator for IKE incubator projects</description>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <gpg.skip>true</gpg.skip>
+    </properties>
+
     <subprojects>
-        <subproject>build-parent-graphlet</subproject>
         <subproject>ike-bom</subproject>
         <subproject>ike-pom</subproject>
-        <subproject>jpms-jheaps-graphlet</subproject>
         <subproject>komet-graphlet</subproject>
         <subproject>rocks-jpms</subproject>
         <subproject>rocks-kb</subproject>
         <subproject>tinkar-graphlet</subproject>
     </subprojects>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 </project>
